@@ -3,7 +3,6 @@ Table of Contents
 - [Training](#training)
 - [Company Permissions Policy](#permissions-policy)
 - [Security Scan Schedule](#security-scan-schedule)
-- [Access Request Form](#access-request-form)
 
 # **Training**
 
