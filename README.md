@@ -115,7 +115,7 @@ The purpose of this section is to outline the scheduled frequency and scope of s
 
 ## Revision Process:
 
-- **Proposal**: Any proposed changes to this document shall be submitted in writing by the DevSecOps Engineer.
+- **Proposal**: Any proposed changes to this document shall be submitted in writing.
 - **Review and Approval**: The CTO will review all proposals for accuracy, completeness, and relevance. If approved, the revised document will be updated accordingly.
 
 ---
