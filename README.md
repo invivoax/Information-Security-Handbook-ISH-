@@ -1,8 +1,19 @@
 Table of Contents
 
+- [Training](#training)
 - [Company Permissions Policy](#permissions-policy)
 - [Security Scan Schedule](#security-scan-schedule)
 - [Access Request Form](#access-request-form)
+
+# **Training**
+
+- When hired will take a course using [Wizer training](https://www.wizer-training.com/)
+- Every 6 months the team will retake the course
+
+Employee Training and Certification
+
+- New hires: Complete an initial security awareness training program through Wizer training [Wizer training](https://www.wizer-training.com/) within their first week of employment.
+- Ongoing education: Retrain every 6 months to maintain up-to-date knowledge on Invivo AX's security policies, procedures, and best practices.
 
 # **Company Permissions Policy**
 
@@ -117,29 +128,3 @@ The purpose of this section is to outline the scheduled frequency and scope of s
 
 - **Proposal**: Any proposed changes to this document shall be submitted in writing.
 - **Review and Approval**: The CTO will review all proposals for accuracy, completeness, and relevance. If approved, the revised document will be updated accordingly.
-
----
-
-# Access Request Form
-
-Send to `li-smith@invivoax.com`
-Subject: Access Request
-
-### Employee Information
-
----
-
-- Employee Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-- Job Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-### Requested Access Details
-
----
-
-- System/Network/Application: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-- Type of access requested (e.g., read-only, edit): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-- Reason for requesting access: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-### Additional Information or comments
-
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
