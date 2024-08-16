@@ -11,16 +11,9 @@ Table of Contents
 
 Employee Training and Certification
 
-- New hires: Complete an initial security awareness training program through Wizer training [Wizer training](https://www.wizer-training.com/) within their first week of employment.
-- Ongoing education: Retrain every 6 months to maintain up-to-date knowledge on Invivo AX's security policies, procedures, and best practices.
+- New hires: Complete an initial security awareness training program through Wizer training [Wizer training](https://www.wizer-training.com/) within their first week of employment. After completing the training a contract aknowedging security protcol is signed.
 
 # **Company Permissions Policy**
-
-### Purpose
-
----
-
-The purpose of this sections is to outline the permissions and access controls in place within Invivo AX to ensure secure handling of sensitive information.
 
 ### Scope
 
@@ -57,10 +50,6 @@ This policy applies to all employees, contractors, and third-party vendors who h
 | **Internal Use Only** | Company-wide information not intended for external sharing (e.g., internal policies). |
 
 # Security Scan Schedule
-
-## Purpose:
-
-The purpose of this section is to outline the scheduled frequency and scope of security scans performed on our network, systems, and applications.
 
 ## Scope:
 
