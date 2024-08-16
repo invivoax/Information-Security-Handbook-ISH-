@@ -32,6 +32,7 @@ This policy applies to all employees, contractors, and third-party vendors who h
 
 ---
 
+- Access Standards: All access rights and permissions will follow our Least Privilege Model, where employees and contractors are granted only the necessary permissions to perform their job functions.
 - Initial Access: Employees and contractors are granted initial access through our standardized onboarding checklist, which is managed by the DevOps and Information Security (InfoSec) team.
 - Access Requests: Employees can request additional permissions or access rights by submitting a formal request form (see Appendix).
 - Revocation of Permissions: The Info sec team regularly audits permissions and their usage. Permissions will be immediately revoked upon employee separation or role change, as well as when permissions are no longer needed or used.
