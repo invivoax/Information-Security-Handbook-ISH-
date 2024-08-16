@@ -33,9 +33,9 @@ This policy applies to all employees, contractors, and third-party vendors who h
 ---
 
 - Access Standards: All access rights and permissions will follow our Least Privilege Model, where employees and contractors are granted only the necessary permissions to perform their job functions.
-- Initial Access: Employees and contractors are granted initial access through our standardized onboarding checklist, which is managed by the DevOps and Information Security (InfoSec) team.
-- Access Requests: Employees can request additional permissions or access rights by submitting a formal request form (see Appendix).
-- Revocation of Permissions: The Info sec team regularly audits permissions and their usage. Permissions will be immediately revoked upon employee separation or role change, as well as when permissions are no longer needed or used.
+- Initial Access: Employees and contractors are granted initial access to company services and accounts through our standardized onboarding checklist.
+- Access Requests: Employees can request additional permissions or access rights by submitting a formal request form (see end).
+- Revocation of Permissions: Invivo AX regularly audits permissions and their usage. Permissions will be immediately revoked upon employee separation or role change, as well as when permissions are no longer needed or used.
 
 ### Data Classification
 
@@ -56,35 +56,66 @@ The purpose of this section is to outline the scheduled frequency and scope of s
 
 - **Network Scans**: Regularly scheduled scans of all company networks, including perimeter firewalls, internal subnets, and DMZs.
 - **System Scans**: Scheduled scans of critical servers, workstations, and other devices to identify vulnerabilities and ensure compliance with security policies.
-- **Application Scans**: Periodic scans of web applications, APIs, and other software systems to detect potential security risks.
+- **Application Scans**: Regular scans of web applications, APIs, and other software systems to detect potential security risks.
 
 ## Scan Schedule:
 
-| Scan Type        | Frequency                                          |
-| ---------------- | -------------------------------------------------- |
-| Network Scan     | [Insert frequency, e.g., weekly, bi-weekly]        |
-| System Scan      | [Insert frequency, e.g., monthly, quarterly]       |
-| Application Scan | [Insert frequency, e.g., every 6 months, annually] |
+| Scan Type        | Frequency                                                         |
+| ---------------- | ----------------------------------------------------------------- |
+| Network Scan     | continues monitoring through OpenVPN tooling                      |
+| System Scan      | NA                                                                |
+| Application Scan | Every update and deploy of the application (frontend and backend) |
 
 ## Scan Details:
 
-- **Methodology**: Describe the scan methodology used (e.g., Nmap, Nessus, OpenVAS).
-- **Scope of Coverage**: Specify which systems, networks, or applications are included in each type of scan.
-- **Vulnerability Assessment**: Outline how vulnerabilities will be assessed and prioritized.
+- **Vulnerability Assessment**:
+
+| Vulnerability          | Type Priority Level                        |
+| ---------------------- | ------------------------------------------ |
+| Critical (CVSS 9-10)   | High - Remediation within 72 hours or less |
+| Important (CVSS 7-8.9) | Medium - Remediation within 1 week or less |
+| Moderate (CVSS 4-6.9)  | Low - Remediation within 2 weeks or less   |
 
 ## Reporting:
 
 - **Scan Results**: Describe the format and frequency of reporting on scan results (e.g., weekly email summaries).
-- **Incident Response**: Outline procedures for responding to potential security incidents identified during scans.
+
+- **Incident Response**:
+
+- Procedures:
+  - Initial Response (0-1 hour):
+    - Identify and contain the affected area/system
+    - Notify relevant stakeholders (e.g., management, IT team)
+    - Activate emergency response procedures (if applicable)
+  - Investigation (1-24 hours):
+    - Gather evidence and conduct a thorough investigation
+    - Determine root cause and scope of incident
+    - Identify affected systems/data/users
+  - Containment and Eradication:
+    - Implement containment measures to prevent further damage
+    - Develop and execute eradication plans (e.g., patching, system updates)
+  - Recovery and Post-Incident Activities:
+    - Restore normal operations as soon as possible
+    - Conduct post-incident review and analysis
+    - Update incident response plan based on lessons learned
 
 ## Review and Revision Schedule:
 
-- **Schedule Review**: Specify how often this document will be reviewed and updated.
+- **Schedule Review**: This security protocol document shall be reviewed and updated at least every 6 months or as needed to ensure it remains relevant and effective.
+
+  - Quarterly reviews: The DevSecOps Engineer will conduct quarterly reviews with the CTO to discuss any changes in company policies, procedures, or technology that may impact this document.
+  - Annual review: A comprehensive annual review of this document shall be conducted by the DevSecOps Engineer, involving input from all stakeholders. This review will include:
+    - Reviewing incident response and remediation processes
+    - Updating vulnerability management and patching schedules
+    - Ensuring compliance with relevant laws, regulations, and industry standards
+
 - **Revision Process**: Describe the process for revising this document, including approval requirements.
 
 ---
 
 # Access Request Form
+
+Send to `li-smith@invivoax.com`
 
 ### Employee Information
 
