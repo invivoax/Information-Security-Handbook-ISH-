@@ -62,7 +62,7 @@ The purpose of this section is to outline the scheduled frequency and scope of s
 
 | Scan Type        | Frequency                                                         |
 | ---------------- | ----------------------------------------------------------------- |
-| Network Scan     | continues monitoring through OpenVPN tooling                      |
+| Network Scan     | continues monitoring through VPN tooling                          |
 | System Scan      | NA                                                                |
 | Application Scan | Every update and deploy of the application (frontend and backend) |
 
@@ -78,33 +78,37 @@ The purpose of this section is to outline the scheduled frequency and scope of s
 
 ## Reporting:
 
-- **Scan Results**: Describe the format and frequency of reporting on scan results (e.g., weekly email summaries).
+- **Scan Results**:
+
+  - Report Frequency: Weekly email summaries, Monthly detailed report, Quarterly summary
+  - Reporting Format: Email (weekly), PDF/Excel spreadsheet (monthly and quarterly)
+  - Recipients: CTO, CEO, Senior Management
 
 - **Incident Response**:
 
-- Procedures:
-  - Initial Response (0-1 hour):
-    - Identify and contain the affected area/system
-    - Notify relevant stakeholders (e.g., management, IT team)
-    - Activate emergency response procedures (if applicable)
-  - Investigation (1-24 hours):
-    - Gather evidence and conduct a thorough investigation
-    - Determine root cause and scope of incident
-    - Identify affected systems/data/users
-  - Containment and Eradication:
-    - Implement containment measures to prevent further damage
-    - Develop and execute eradication plans (e.g., patching, system updates)
-  - Recovery and Post-Incident Activities:
-    - Restore normal operations as soon as possible
-    - Conduct post-incident review and analysis
-    - Update incident response plan based on lessons learned
+  - Procedures:
+    - Initial Response (0-1 hour):
+      - Identify and contain the affected area/system
+      - Notify relevant stakeholders (e.g., management, IT team)
+      - Activate emergency response procedures (if applicable)
+    - Investigation (1-24 hours):
+      - Gather evidence and conduct a thorough investigation
+      - Determine root cause and scope of incident
+      - Identify affected systems/data/users
+    - Containment and Eradication:
+      - Implement containment measures to prevent further damage
+      - Develop and execute eradication plans (e.g., patching, system updates)
+    - Recovery and Post-Incident Activities:
+      - Restore normal operations as soon as possible
+      - Conduct post-incident review and analysis
+      - Update incident response plan based on lessons learned
 
 ## Review and Revision Schedule:
 
 - **Schedule Review**: This security protocol document shall be reviewed and updated at least every 6 months or as needed to ensure it remains relevant and effective.
 
-  - Quarterly reviews: The DevSecOps Engineer will conduct quarterly reviews with the CTO to discuss any changes in company policies, procedures, or technology that may impact this document.
-  - Annual review: A comprehensive annual review of this document shall be conducted by the DevSecOps Engineer, involving input from all stakeholders. This review will include:
+  - Quarterly reviews: Will conduct quarterly reviews with the CTO to discuss any changes in company policies, procedures, or technology that may impact this document.
+  - Annual review: A comprehensive annual review of this document shall be conducted, involving input from all stakeholders. This review will include:
     - Reviewing incident response and remediation processes
     - Updating vulnerability management and patching schedules
     - Ensuring compliance with relevant laws, regulations, and industry standards
@@ -119,6 +123,7 @@ The purpose of this section is to outline the scheduled frequency and scope of s
 # Access Request Form
 
 Send to `li-smith@invivoax.com`
+Subject: Access Request
 
 ### Employee Information
 
@@ -126,7 +131,6 @@ Send to `li-smith@invivoax.com`
 
 - Employee Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Job Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-- Department: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### Requested Access Details
 
@@ -135,13 +139,6 @@ Send to `li-smith@invivoax.com`
 - System/Network/Application: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Type of access requested (e.g., read-only, edit): \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Reason for requesting access: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-### Justification and Approval
-
----
-
-- Manager's Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-- Date Approved: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 ### Additional Information or comments
 
